@@ -1,0 +1,67 @@
+# this is a sample configuration file
+#
+# only the data fields below the heading should be selected
+#
+# allow white space "between quotes"
+# white space otherwise can be there just be stripped when reading data
+
+#RevisionId      = "42040ldsf-934KD9-K2349-ASDLFJSF"
+
+>>>>mytest_Api_Transfer11
+FunctionName    = "mytest_Api_Transfer11"
+Role            = "arn:aws:iam::346310308399:role/service-role/basic-lambda-execute-role"
+FunctionArn     = "arn:aws:lambda:us-east-1:346310308399:function:mytest_Api_Transfer"
+
+#CodeSha         = "XZOLMXASDIASDFJLASDBYASFBSIDUBFSAFSADFSADJLFIJASDFSDFSADF"
+
+Runtime         = "java8"
+Timeout         = 315
+MemorySize      = 512
+Description     = "Description of this Lambda is: importance "
+SecurityGroups  = "sg-0e855d8b8b3469f79"
+SubnetIds       = "subnet-fe7b73d1,subnet-355ceb3a,subnet-eacdffd5,subnet-da8e8087,subnet-de04d694"
+TracingConfig   =  "Mode" : "PassThrough"
+CodeSize        = 22814817
+Handler         = "com.serverless.demo.function.HelloWorld"
+ZipFile         = "fileb://hello-lambda.zip"
+
+
+>>>>mytest_Api_Transfer2
+FunctionName    = "mytest_Api_Transfer2"
+Role            = "arn:aws:iam::346310308399:role/service-role/basic-lambda-execute-role"
+FunctionArn     = "arn:aws:lambda:us-east-1:346310308399:function:mytest_Api_Transfer"
+
+#CodeSha         = "XZOLMXASDIASDFJLASDBYASFBSIDUBFSAFSADFSADJLFIJASDFSDFSADF"
+
+Runtime         = "java8"
+Timeout         = 315
+MemorySize      = 512
+Description     = "Description of this Lambda is: importance "
+SecurityGroups  = "sg-0e855d8b8b3469f79"
+SubnetIds       = "subnet-fe7b73d1,subnet-355ceb3a,subnet-eacdffd5,subnet-da8e8087,subnet-de04d694"
+TracingConfig   =  "Mode" : "PassThrough"
+CodeSize        = 22814817
+Handler         = "com.serverless.demo.function.HelloWorld"
+ZipFile         = "fileb://hello-lambda.zip"
+
+
+>>>yellow
+myvalueone="yellowlisted one"
+myvaluetwo="yellowlisted two"
+myvaluethree="yellowlisted three"
+myvaluefour="yellowlisted four"
+myvaluefive="yellowliste dfive"
+
+>>>blue
+myvalueone  =  "blue listed one"
+myvaluetwo  =  "blue listed two"
+myvaluethree  =  "blue listed three"
+myvaluefour  =  "blue listed four"
+myvaluefive  =  "blue listed five"
+
+>>>orange
+myvalueone    =  "orange listedone"
+myvaluetwo    =  "orange listedtwo"
+myvaluethree  =  "orange listedthree"
+myvaluefour   =  "orange listedfour"
+myvaluefive   =  "orange listedfive"
