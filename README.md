@@ -1,5 +1,7 @@
 # Lambda-Deployments
 
+### Under Construction and not "ready to run"
+
 This is designed to take a attribute file of details and deploy "applicaitons" to AWS Lambda 
 
 There is pieces to make this deploy to Lambda with a Virtual Gateway and S3 bucket 
